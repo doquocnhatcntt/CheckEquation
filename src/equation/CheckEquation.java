@@ -1,10 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package equation;
-
 /**
  *
  * @author Nhatdqse61645
@@ -28,12 +22,12 @@ public class CheckEquation {
                 }
             }
         } else {
-            int delte = b * b - 4 * a * c;
-            if (delte < 0) {
+//            int delte = b * b - 4 * a * c;
+//            if (delte < 0) {
                 check = false;
             }
         }
-        return check
+        return check;
     }
 
     public static void main(String args[]) {
