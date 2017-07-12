@@ -8,9 +8,9 @@ public class CheckEquation {
     private int a, b, c;
 
     public CheckEquation() {
-        a = 0;
-        b = 0;
-        c = 1;
+        a = 1;
+        b = 5;
+        c = 9;
     }
 
     public boolean checkEquationIsValid() {
@@ -22,8 +22,8 @@ public class CheckEquation {
                 }
             }
         } else {
-//            int delte = b * b - 4 * a * c;
-//            if (delte < 0) {
+            int delte = b * b - 4 * a * c;
+            if (delte < 0) {
                 check = false;
             }
         }
