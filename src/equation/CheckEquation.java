@@ -33,7 +33,7 @@ public class CheckEquation {
                 check = false;
             }
         }
-        return check;
+        return check
     }
 
     public static void main(String args[]) {
