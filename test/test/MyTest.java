@@ -17,5 +17,6 @@ public class MyTest extends TestCase{
     public void test1st() {
         CheckEquation check = new CheckEquation();
         assertTrue(check.checkEquationIsValid());
+//        assertTrue()
     }
 }

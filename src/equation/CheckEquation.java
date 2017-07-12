@@ -7,15 +7,15 @@ package equation;
 
 /**
  *
- * @author LinhPHSE62696
+ * @author Nhatdqse61645
  */
 public class CheckEquation {
 
     private int a, b, c;
 
     public CheckEquation() {
-        a = 1;
-        b = 1;
+        a = 0;
+        b = 0;
         c = 1;
     }
 
@@ -35,8 +35,10 @@ public class CheckEquation {
         }
         return check;
     }
-    
+
     public static void main(String args[]) {
-        
+//        int a = 2;
+//        int b = 2;
+//        int c;
     }
 }
