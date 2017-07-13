@@ -8,8 +8,8 @@ public class CheckEquation {
     private int a, b, c;
 
     public CheckEquation() {
-        a = 2;
-        b = 3;
+        a = 1;
+        b = 1;
         c = 1;
     }
 
